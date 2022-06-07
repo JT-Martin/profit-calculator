@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+#app-container {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+  color: #101828;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-auto-columns: 1fr;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  #app-container {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #app-container {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+  }
+}
