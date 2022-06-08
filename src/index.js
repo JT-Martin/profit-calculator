@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import AppContainer from './Containers/AppContainer.js';
 
+
 const root = ReactDOM.createRoot(document.getElementById('profit-calculator-div'));
 
 root.render(

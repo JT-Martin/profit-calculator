@@ -57,7 +57,7 @@
 
 .profit-calc-input-dollar {
     margin-right: 8px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .profit-calc-input-field {
@@ -68,7 +68,6 @@
     margin: 0;
     display: block;
     width: 100%;
-    height: 38px;
     vertical-align: middle;
     background-color: #fff;
     margin-bottom: 0;
@@ -79,6 +78,10 @@
     line-height: 18px;
     font-weight: 500;
     outline-width: 0px;
+}
+
+.profit-calc-input-perc {
+    font-size: 22px;
 }
 
 
